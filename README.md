@@ -4,7 +4,7 @@ How to set up a Django project
 
 ## Usage
 
-Instrcutions on how to use:
+Instructions on how to use:
 
 #### Create a virtual environment
 
