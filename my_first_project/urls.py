@@ -21,5 +21,5 @@ from my_first_project import views
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('', views.index, name='index'),
-    path('my_first_project/', views.my_first_project, name='my_first_project')
+    path('my_first_project/', views.my_first_project, name='my_first_project'),
 ]
