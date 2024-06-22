@@ -68,7 +68,7 @@ You should see a list of available subcommands:
 
 In your terminal, run:
 
-7.         django-admin startproject <name of file> .
+7.         django-admin startproject my_first_project .
 
 - This command creates a new Django project named my_first_project.
 - You will get a manage.py file and a directory named my_first_project with various configuration files.
