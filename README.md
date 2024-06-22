@@ -4,35 +4,35 @@ How to set up a Django project
 
 ## Usage
 
-Instrcutions on how to use:
+Instructions on how to use:
 
 #### Create a virtual environment
 
 In your terminal, run:
 
-1.           python3 -m venv .venv
+1.            python3 -m venv .venv
 
 #### Activate the virtual environment
 
 For Unix/macOS:
 
-2.           . .venv/bin/activate
+2.            . .venv/bin/activate
 
 For Windows:
 
-3.           .\.venv\Scripts\Activate
+3.            .\.venv\Scripts\Activate
 
 #### Install Django
 
-4.           pip install django
+4.            pip install django
 
 #### Verify Django installation
 
-5.           django-admin
+5.            django-admin
 
 You should see a list of available subcommands:
 
-6.             Type 'django-admin help <subcommand>' for help on a specific subcommand.
+6.              Type 'django-admin help <subcommand>' for help on a specific subcommand.
 
               Available subcommands:
 
@@ -76,7 +76,7 @@ In your terminal, run:
 
 In your terminal, run:
 
-8.           python manage.py runserver
+8.            python manage.py runserver
 
 - This command starts the Django development server.
 - You might see unapplied migration warnings; you can ignore them for now.
@@ -85,7 +85,7 @@ In your terminal, run:
 
 Visit:
 
-9.           https://127.0.0.1:8000/
+9.            https://127.0.0.1:8000/
 
 - This URL points to the localhost, running on your local computer.
 - If everything is set up correctly, you will see the Django welcome page indicating a successful installation.
